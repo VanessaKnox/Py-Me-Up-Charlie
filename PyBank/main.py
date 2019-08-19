@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Import modules os and csv
+=======
+ #Import modules os and csv
+>>>>>>> d267d750434779ad84e7f7008211d5a2f652a34d
 import os
 import csv
 
@@ -10,7 +14,11 @@ profit_loss = []
 budget_csv = os.path.join('budget_data.csv')
 
 #Open the CSV
+<<<<<<< HEAD
 with open('budget_data.csv', newline='') as csvfile:
+=======
+with open('budget_data.csv', newline=' ') as csvfile:
+>>>>>>> d267d750434779ad84e7f7008211d5a2f652a34d
     budget_reader = csv.reader(csvfile, delimiter=' ',)
 
     #Skip the header row
